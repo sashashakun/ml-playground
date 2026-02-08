@@ -239,3 +239,77 @@ blue  = [0, 0, 1]
 ---
 
 *Notes from: Lesson 1 Q&A session*
+
+---
+
+### Lesson 2: Data Intuition
+
+#### Bag-of-Words (BoW): Text → Numbers
+
+**What it is:** Convert text to numbers by counting words. "Bag" because we throw words into a bag and **lose their order**.
+
+```python
+Sentence: "I love cats and I love dogs"
+
+Vocabulary: ["I", "love", "cats", "and", "dogs"]
+
+Bag-of-Words vector: [2, 2, 1, 1, 1]
+                      ↑  ↑  ↑  ↑  ↑
+                      I  love cats and dogs
+                     (2) (2) (1) (1) (1)
+```
+
+---
+
+#### Why It's a "Vector"
+
+A vector is a list of numbers = a point in space. Each sentence becomes a **point in vocabulary-dimensional space**:
+
+```python
+"I love cats" → [1, 1, 1, 0, 0]  # Point in 5D space
+"I love dogs" → [1, 1, 0, 0, 1]  # Different point in 5D space
+```
+
+---
+
+#### The "Bag" Problem: Word Order Lost
+
+These sentences have **identical** BoW vectors:
+
+```
+"The movie was not good"  →  {the:1, movie:1, was:1, not:1, good:1}
+"The movie was good not"  →  {the:1, movie:1, was:1, not:1, good:1}  # Same!
+```
+
+Even worse - opposite meanings, similar vectors:
+```
+"I love this, I don't hate it"  vs  "I hate this, I don't love it"
+```
+
+---
+
+#### Connection to One-Hot Encoding
+
+| Method | Vector for "love" | What it captures |
+|--------|-------------------|------------------|
+| One-hot | `[0,1,0,0,0]` | Which word (binary) |
+| Bag-of-Words | `[2,2,1,1,1]` | Word counts in sentence |
+
+**BoW = summing one-hot vectors** for every word in the sentence!
+
+---
+
+#### Why BoW Still Matters
+
+**Dumb but useful:** Despite losing word order, BoW works well for:
+- Spam detection
+- Topic classification
+- Simple sentiment analysis
+
+**For order-sensitive tasks, you need:**
+- Sequence models (Module 6) - RNNs remember order
+- Transformers (Module 8) - Attention captures relationships
+
+---
+
+*Notes from: Lesson 2 Q&A session*
