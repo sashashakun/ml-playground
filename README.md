@@ -54,6 +54,71 @@ jupyter lab
 
 Open `notebooks/01_foundations/01_numpy_basics.ipynb` and follow along!
 
+## 📱 Run on Mobile (Google Colab)
+
+No installation needed! Click any badge to run notebooks directly in your browser:
+
+### Module 1: Foundations
+| # | Notebook | Colab |
+|---|----------|-------|
+| 01 | NumPy Basics | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/01_foundations/01_numpy_basics.ipynb) |
+| 02 | Data Intuition | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/01_foundations/02_data_intuition.ipynb) |
+| 03 | Simple Prediction | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/01_foundations/03_simple_prediction.ipynb) |
+
+### Module 2: Classification
+| # | Notebook | Colab |
+|---|----------|-------|
+| 04 | Logistic Regression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/02_classification/04_logistic_regression.ipynb) |
+| 05 | Sentiment Basic | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/02_classification/05_sentiment_basic.ipynb) |
+| 06 | Sklearn Intro | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/02_classification/06_sklearn_intro.ipynb) |
+
+### Module 3: Neural Networks
+| # | Notebook | Colab |
+|---|----------|-------|
+| 07 | Perceptron | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/03_neural_nets/07_perceptron.ipynb) |
+| 08 | Multilayer Network | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/03_neural_nets/08_multilayer_network.ipynb) |
+| 09 | Backprop Intuition | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/03_neural_nets/09_backprop_intuition.ipynb) |
+
+### Module 4: PyTorch
+| # | Notebook | Colab |
+|---|----------|-------|
+| 10 | PyTorch Tensors | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/04_pytorch/10_pytorch_tensors.ipynb) |
+| 11 | Autograd Magic | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/04_pytorch/11_autograd_magic.ipynb) |
+| 12 | Training Loop | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/04_pytorch/12_training_loop.ipynb) |
+
+### Module 5: Embeddings
+| # | Notebook | Colab |
+|---|----------|-------|
+| 13 | Word Embeddings | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/05_embeddings/13_word_embeddings.ipynb) |
+| 14 | Word2Vec Intuition | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/05_embeddings/14_word2vec_intuition.ipynb) |
+| 15 | Embedding Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/05_embeddings/15_embedding_visualization.ipynb) |
+
+### Module 6: Sequences (RNN/LSTM)
+| # | Notebook | Colab |
+|---|----------|-------|
+| 16 | Sequences Matter | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/06_sequences/16_sequences_matter.ipynb) |
+| 17 | Simple RNN | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/06_sequences/17_simple_rnn.ipynb) |
+| 18 | LSTM & GRU | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/06_sequences/18_lstm_gru.ipynb) |
+| 19 | Text Generation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/06_sequences/19_text_generation.ipynb) |
+
+### Module 7: Attention
+| # | Notebook | Colab |
+|---|----------|-------|
+| 20 | Attention Intuition | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/07_attention/20_attention_intuition.ipynb) |
+| 21 | Attention Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/07_attention/21_attention_visualization.ipynb) |
+| 22 | Seq2Seq with Attention | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/07_attention/22_seq2seq_attention.ipynb) |
+
+### Module 8: Transformers
+| # | Notebook | Colab |
+|---|----------|-------|
+| 23 | Self-Attention | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/08_transformers/23_self_attention.ipynb) |
+| 24 | Positional Encoding | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/08_transformers/24_positional_encoding.ipynb) |
+| 25 | Transformer Architecture | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/08_transformers/25_transformer_architecture.ipynb) |
+| 26 | Transformer from Scratch | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/08_transformers/26_transformer_from_scratch.ipynb) |
+| 27 | Hugging Face Intro | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sashashakun/ml-playground/blob/main/notebooks/08_transformers/27_huggingface_intro.ipynb) |
+
+> **Tip:** On mobile, just tap a badge → notebook opens in Colab → tap cells to run!
+
 ## Directory Structure
 
 ```
