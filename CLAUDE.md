@@ -31,6 +31,12 @@ source venv/bin/activate
 - Lesson 2, cell-17: Fixed `value_counts()` to work with numpy arrays
 - Added "Run all cells" warning for Colab users
 
+## Session Memory
+Claude saves session summaries to the persistent memory directory so context carries across conversations.
+- Memory location: `~/.claude/projects/-Users-alex-shakun-Desktop-dev-ml-playground/memory/`
+- `MEMORY.md` — concise index of key facts and links to topic files
+- At the end of each session (or when significant work is done), Claude should update memory files with a brief summary of what was covered, decisions made, and any new preferences learned.
+
 ## Workflow
 1. User runs notebooks locally in VS Code
 2. Asks Claude questions about concepts
