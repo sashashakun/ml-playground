@@ -20,6 +20,14 @@ source venv/bin/activate
 # VS Code: Select "ML Playground (venv)" kernel
 ```
 
+## Interaction Style
+- When answering conceptual questions about ML/math (e.g., 'what is gradient descent?', 'explain backpropagation'), answer directly from knowledge. Do NOT search files or explore the codebase unless explicitly asked.
+- User studies ML in both English and Russian. Support bilingual explanations naturally — if the user writes in Russian, respond in Russian.
+
+## Notebooks / ML Curriculum
+- When editing Jupyter notebooks, always check for common bugs first: deprecated sklearn APIs (e.g., sklearn.datasets changes), variable shadowing, and tensor/array dimension mismatches. Fix silently if found.
+- When asked to save or add notes, append to the existing notes section in the notebook rather than overwriting. Use detailed markdown with code examples.
+
 ## User Preferences
 - Prefers intuition and visualizations over formulas
 - Learning style: Ask questions, get explanations, then "add to notes"
